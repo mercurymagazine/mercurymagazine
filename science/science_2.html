@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>science_2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles.css" rel="stylesheet" type="text/css">
+</head>
+<body> 
+  <div class="navbar" id="myNavbar">
+    <a href="../home/index.html">Home</a>
+    <a href="../movies/movies.html">Movie Reviews</a>
+    <a href="../science/science.html">Science</a>
+    <a href="../fashion/fashion.html">Fashion</a>
+    <a href="../study_tips/study_tips.html">Study Tips</a>
+    <a href="../interviews/interviews.html">Interviews</a>
+    <a href="../notices/notices.html">Notices</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+    <div class="main">
+        <h2 class="title">Should we be adding salt to our tea?</h2>
+        <div class="column_uneven_left">
+            <p>Here in Sixth Form, we take our tea very seriously. </p>
+            <p>Chemist Michelle Francl recently wrote a book called Steeped: The Chemistry of Tea, in which she goes into detail about how to make the perfect cup of tea using science. Her most controversial suggestion is adding a pinch of salt to a fresh brew. The reasoning is that a key element of salt, sodium ions, interacts with the chemical mechanism that produces the perception of a bitter taste (Francl, 2024). </p>
+            <p>Another of her recommendations is to warm milk before adding it to tea to make sure it doesn’t spoil, but we found the suggestion of adding salt the most intriguing.</p>
+            <h2 class="subtitle">The Experiment</h2>
+            <img src="images/tea.jpeg">
+            <p>So we added some salt to our tea. We had a control of just milk and sugar, and another with milk, sugar and salt to compare. We also made a cup without sugar to see how that measured up. </p>
+            <h2 class="subtitle">The Results</h2>
+            <p>It is worth noting that this is just our opinion, although a couple of teachers agreed with us. We found that in comparison to the control tea, the one with salt added seemed smoother and softer and any bitterness from overbrewing the tea was cancelled out. The one with salt and milk but without sugar was just bad. Would not recommend. </p>
+            <p>Overall, putting a pinch of salt in your tea is worth a try, but it has to be a very small amount. </p>
+            <div class="credits">
+                By Mia Lewis<br><br>
+                <strong>Bibliography:</strong><br>
+                https://www.newscientist.com/article/2414348-the-chemist-who-told-us-to-put-salt-in-our-tea-explains-why-she-did-it/
+        </div>
+    </div>
+
+
+    <script>
+      function myFunction() {
+          var x = document.getElementById("myNavbar");
+          if (x.className === "navbar") {
+          x.className += " responsive";
+          } else {
+          x.className = "navbar";
+          }
+      }
+  </script>
+</body>
+</html>

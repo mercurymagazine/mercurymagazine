@@ -1,1 +1,0 @@
-# mercurymagazine.github.io

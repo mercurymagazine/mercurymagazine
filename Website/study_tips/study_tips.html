@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>study_tips</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles.css" rel="stylesheet" type="text/css">
+</head>
+<body> 
+    <div class="navbar" id="myNavbar">
+        <a href="../home/index.html">Home</a>
+        <a href="../movies/movies.html">Movie Reviews</a>
+        <a href="../science/science.html">Science</a>
+        <a href="../fashion/fashion.html">Fashion</a>
+        <a href="../study_tips/study_tips.html">Study Tips</a>
+        <a href="../interviews/interviews.html">Interviews</a>
+        <a href="../notices/notices.html">Notices</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <div class="main">
+        <h1 class="header">STUDY TIPS</h1>
+        <a class="article_link" href="study_tips_1.html">
+              <div><h5>Comparing yourself to others - is there a good side to it?</h5></div>
+              <div><p>This article explores the idea of comparing ourselves to others, and whether it is providing any benefits. Comparison is a natural part of human nature, and is something that we have always subconsciously sought to do. However, it is not always the best thing to do, and can poke holes in our self esteem.</p></div>
+          </a>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+            x.className += " responsive";
+            } else {
+            x.className = "navbar";
+            }
+        }
+    </script>
+</body>
+</html>

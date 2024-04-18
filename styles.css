@@ -197,6 +197,7 @@ h5{
 /*COLUMNS*/
 .row{
   width: 100%;
+  margin-bottom: 2%;
 }
 
 .column_left{
